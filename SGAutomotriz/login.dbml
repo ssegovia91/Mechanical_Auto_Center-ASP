@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB_A0CF6E_sgsolis" Class="loginDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SQL5021.myWindowsHosting.com;Initial Catalog=DB_A0CF6E_sgsolis;User ID=DB_A0CF6E_sgsolis_admin" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DB_A0CF6E_sgsolisConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.usuarios" Member="usuarios">
+    <Type Name="usuario">
+      <Column Name="idUs" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombreUsuario" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tipoUsuario" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fechaCreacion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="status" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="operacion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
